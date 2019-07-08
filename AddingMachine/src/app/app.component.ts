@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { StylesCompileDependency } from '@angular/compiler';
+
 
 @Component({
   selector: 'app-root',
@@ -8,3 +10,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'AddingMachine';
 }
+
+
